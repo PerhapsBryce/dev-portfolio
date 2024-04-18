@@ -254,7 +254,7 @@
     height: 80%;
     display: grid;
     align-items: center;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 25% 75%;
     grid-template-columns: 100%;
 }
 
@@ -263,12 +263,18 @@
 }
 
 .project-container > span {
-    margin: 4rem;
     padding: 1rem;
     background-color: var(--background1);
     border-radius: 1rem;
     border: solid 4px black;
-    font-size: larger;
+    font-size:xx-large;
+    height: 66%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 @media (min-width: 1024px) {
@@ -279,7 +285,7 @@
 }
 
 .project-image {
-    width: 75%;
+    width: 100%;
     aspect-ratio: 16/9;
     border: solid black 4px;
     border-radius: 1rem;
