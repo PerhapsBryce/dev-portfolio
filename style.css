@@ -271,7 +271,7 @@
     font-size: larger;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1024px) {
     .project-container {
         grid-template-rows: 100%;
         grid-template-columns: 50% 50%;
