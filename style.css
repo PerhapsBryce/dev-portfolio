@@ -234,6 +234,7 @@
     overflow: hidden;
     line-height: 0;
     z-index: 20;
+    margin-bottom: -8px;
 }
 
 .wave-3 svg {
