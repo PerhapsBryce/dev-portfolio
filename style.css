@@ -256,6 +256,7 @@
     align-items: center;
     grid-template-rows: 25% 75%;
     grid-template-columns: 100%;
+    margin-top: 3rem;
 }
 
 .project-container > * {
