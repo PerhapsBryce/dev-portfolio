@@ -93,6 +93,8 @@ a {
     padding: 2rem 10rem 5rem 10rem;
     background-color: var(--background1);
     height: calc(100svh);
+    display: flex;
+    flex-direction: column;
 }
 
 .job-label {
@@ -110,6 +112,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1 1 0%;
+
 }
 
 
