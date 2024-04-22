@@ -8,22 +8,31 @@
     <body>
         <script src="./script.js"></script>
 
-        <span class="contact">
-            <a href="mailto:bmattson.dev@gmail.com" class="email"></a>
-            <a href="https://github.com/PerhapsBryce" target="_blank" class="github"></a>
-        </span>            
+         <div class="landing" id="home">
+            <span>
 
-        <span id="scroll-nav">
-            <span id="home"></span>
-            <span id="projects"></span>
-            <span id="about"></span>
-            <span id="resume"></span>
-        </span>
+            </span>
+            <span class="nav">
+                <div class="job-label enter-top">
+                    Full Stack Web Developer
+                </div>
 
-         <div class="landing">
-            <div class="job-label enter-top">
-                Full Stack Web Developer
-            </div>
+                <a href="#home">
+                    Home
+                </a>
+    
+                <a href="#projects">
+                    Projects
+                </a>
+    
+                <a href="#about">
+                    About
+                </a>
+    
+                <a href="#resume">
+                    Resume
+                </a>
+            </span>
 
             <span class="hero">
                 <span class="landing-main">
@@ -42,8 +51,6 @@
 
                     <span class="bottom-right-corner" id="landing-corner-right"></span>
                 </span>
-
-                <span class="scroll-prompt">Scroll</span>
             </span>
 
             <span class="wave-1">
@@ -71,7 +78,7 @@
             </span>
          </div>
 
-         <div class="projects">
+         <div class="projects" id="projects">
             <div class="wave-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path 
@@ -108,7 +115,7 @@
             </span>
          </div>
 
-         <div class="about">
+         <div class="about" id="about">
             <h1 class="section-header">
                 <span>
                     <span class="top-left-corner" id="landing-corner-left"></span>
@@ -129,9 +136,11 @@
                 <div class="hiden-mobile"></div><span>
                     <h3>Expirience</h3>
                     <p>
-                        I am fully responsible for the development, operation, and maintainance of the analytics application 
-                        <a href="https://www.earthscienceagency.com" target="_blank">ESA: Analytics</a>. This has given me 
-                        experience with front end development, back end development, operations, and testing. 
+                        In my time at the Earth Science Agency, I used my skills in front end development through the 
+                        use of React.js, Next.js, OAuth, Plotly.js, and Tanstack, as well as my skills in back end 
+                        development through Express.js. I also used my skills in database management through the 
+                        creation and management of a MongoDB database to store large amounts of well data. This expirience 
+                        has deepened my understanding of building scalable and robust applications.
                     </p>                
                 </span>
 
@@ -154,7 +163,17 @@
             </div>
          </div>
 
-         <div class="resume">Resume</div>
+         <div class="resume" id="resume">
+            <h1 class="section-header">
+                <span>
+                    <span class="top-left-corner" id="landing-corner-left"></span>
+                    Resume       
+                    <span class="bottom-right-corner" id="landing-corner-right"></span>
+                </span>
+            </h1>
+
+            <a href="./" download="Resume.pdf" class="download-button">Download</button>
+         </div>
 
     </body>
 </html>
